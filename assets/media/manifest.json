@@ -1,0 +1,214 @@
+{
+  "source_archive": "assets 2/instagram",
+  "generated_at": "2026-09-12",
+  "images": [
+    {
+      "id": "hero_gold",
+      "role": "トップヒーロー背景（黄金の舞台光と太鼓）",
+      "alt": "黄金色の舞台照明を浴びて和太鼓に向き合う韮崎工業高校太鼓部の演奏風景",
+      "original_path": "images/p29_DFmGQ90Ca2G.jpg",
+      "original_dimensions": {
+        "width": 2160,
+        "height": 1215
+      },
+      "post_url": "https://www.instagram.com/p/DFmGQ90Ca2G/",
+      "post_code": "DFmGQ90Ca2G",
+      "variants": [
+        {
+          "filename": "hero_gold-large.webp",
+          "width": 1600,
+          "height": 900,
+          "size_kb": 95.6
+        },
+        {
+          "filename": "hero_gold-medium.webp",
+          "width": 1080,
+          "height": 607,
+          "size_kb": 57.1
+        },
+        {
+          "filename": "hero_gold-small.webp",
+          "width": 720,
+          "height": 405,
+          "size_kb": 32.3
+        }
+      ]
+    },
+    {
+      "id": "stage_geibunsai",
+      "role": "芸術文化祭 舞台全景（部紹介・活動記録）",
+      "alt": "芸術文化祭の舞台上で太鼓が整然と並び演奏が繰り広げられる全景",
+      "original_path": "images/p04_DR1IAKdEmFd_01.jpg",
+      "original_dimensions": {
+        "width": 1364,
+        "height": 908
+      },
+      "post_url": "https://www.instagram.com/p/DR1IAKdEmFd/",
+      "post_code": "DR1IAKdEmFd",
+      "variants": [
+        {
+          "filename": "stage_geibunsai-1000.webp",
+          "width": 1000,
+          "height": 665,
+          "size_kb": 49.0
+        },
+        {
+          "filename": "stage_geibunsai-600.webp",
+          "width": 600,
+          "height": 399,
+          "size_kb": 22.1
+        }
+      ]
+    },
+    {
+      "id": "odaiko_back",
+      "role": "関東大会 大太鼓と背中（天野流の魂・気迫）",
+      "alt": "大太鼓に向かって力強くバチを構える太鼓部員の背中",
+      "original_path": "images/p15_DNzwjqN5FzT_01.jpg",
+      "original_dimensions": {
+        "width": 1368,
+        "height": 914
+      },
+      "post_url": "https://www.instagram.com/p/DNzwjqN5FzT/",
+      "post_code": "DNzwjqN5FzT",
+      "variants": [
+        {
+          "filename": "odaiko_back-1000.webp",
+          "width": 1000,
+          "height": 668,
+          "size_kb": 81.5
+        },
+        {
+          "filename": "odaiko_back-600.webp",
+          "width": 600,
+          "height": 400,
+          "size_kb": 37.0
+        }
+      ]
+    },
+    {
+      "id": "stage_kanto",
+      "role": "関東大会 正面演奏の瞬間（実績・演奏）",
+      "alt": "関東地区高等学校和太鼓選手権での熱のこもった正面演奏の瞬間",
+      "original_path": "images/p15_DNzwjqN5FzT_03.jpg",
+      "original_dimensions": {
+        "width": 1368,
+        "height": 914
+      },
+      "post_url": "https://www.instagram.com/p/DNzwjqN5FzT/",
+      "post_code": "DNzwjqN5FzT",
+      "variants": [
+        {
+          "filename": "stage_kanto-1000.webp",
+          "width": 1000,
+          "height": 668,
+          "size_kb": 82.1
+        },
+        {
+          "filename": "stage_kanto-600.webp",
+          "width": 600,
+          "height": 400,
+          "size_kb": 37.2
+        }
+      ]
+    },
+    {
+      "id": "festival_night",
+      "role": "小田川ホタルまつり 夜間野外演奏（地域交流）",
+      "alt": "小田川ホタルまつりの夜間野外ステージで提灯の明かりに照らされ太鼓を叩く部員たち",
+      "original_path": "images/p23_DKma7SOSwz7_01.jpg",
+      "original_dimensions": {
+        "width": 1440,
+        "height": 807
+      },
+      "post_url": "https://www.instagram.com/p/DKma7SOSwz7/",
+      "post_code": "DKma7SOSwz7",
+      "variants": [
+        {
+          "filename": "festival_night-1000.webp",
+          "width": 1000,
+          "height": 560,
+          "size_kb": 51.1
+        },
+        {
+          "filename": "festival_night-600.webp",
+          "width": 600,
+          "height": 336,
+          "size_kb": 24.8
+        }
+      ]
+    },
+    {
+      "id": "community_stage",
+      "role": "北杜市ふれあい塾 交流演奏（活動の広がり・リンク集）",
+      "alt": "北杜市ふれあい塾での生き生きとした地域交流演奏の様子",
+      "original_path": "images/p21_DLcc5UxSDJa_01.jpg",
+      "original_dimensions": {
+        "width": 1440,
+        "height": 807
+      },
+      "post_url": "https://www.instagram.com/p/DLcc5UxSDJa/",
+      "post_code": "DLcc5UxSDJa",
+      "variants": [
+        {
+          "filename": "community_stage-1000.webp",
+          "width": 1000,
+          "height": 560,
+          "size_kb": 33.6
+        },
+        {
+          "filename": "community_stage-600.webp",
+          "width": 600,
+          "height": 336,
+          "size_kb": 15.9
+        }
+      ]
+    },
+    {
+      "id": "practice_bachi",
+      "role": "合同練習会 バチと練習風景（紹介・動画ページ）",
+      "alt": "定期演奏会に向けた合同練習会でバチを手に真剣に向き合う部員たち",
+      "original_path": "images/p05_DRo1ST_EvPR_01.jpg",
+      "original_dimensions": {
+        "width": 1440,
+        "height": 807
+      },
+      "post_url": "https://www.instagram.com/p/DRo1ST_EvPR/",
+      "post_code": "DRo1ST_EvPR",
+      "variants": [
+        {
+          "filename": "practice_bachi-1000.webp",
+          "width": 1000,
+          "height": 560,
+          "size_kb": 95.6
+        },
+        {
+          "filename": "practice_bachi-600.webp",
+          "width": 600,
+          "height": 336,
+          "size_kb": 40.4
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": "practice_clip",
+      "filename": "clip-practice.mp4",
+      "size_kb": 437.3,
+      "role": "合同練習ショートクリップ（動画ギャラリー内、公式提供映像）",
+      "title": "合同練習での響き（公式Instagramより提供）",
+      "original_path": "videos/p14_DOjAD-tkskX_03.mp4",
+      "post_url": "https://www.instagram.com/p/DOjAD-tkskX/",
+      "post_code": "DOjAD-tkskX",
+      "poster": [
+        {
+          "filename": "practice_clip-poster.webp",
+          "width": 720,
+          "height": 405,
+          "size_kb": 24.4
+        }
+      ]
+    }
+  ]
+}

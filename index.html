@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>山梨県立韮崎工業高等学校 太鼓部 非公式ポータルサイト</title>
+  <meta name="description" content="山梨県立韮崎工業高校 太鼓部の非公式ファンポータル。天野流の伝統と窮理居敬の精神で打ち鳴らす和太鼓の響き、定期演奏会「鍛麗」、大会実績、演奏動画や公式発信をまとめてお届けします。">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">本文へスキップ</a>
+
+  <!-- 共通ヘッダー -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="韮崎工業高校太鼓部ポータル トップ">
+        <span class="brand-school">山梨県立韮崎工業高等学校</span>
+        <div class="brand-main">
+          <span class="brand-name">太鼓部</span>
+          <span class="brand-badge">非公式ポータル</span>
+        </div>
+      </a>
+      <button type="button" class="menu-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="メニューを開く">
+        <span class="menu-toggle-box" aria-hidden="true">
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+        </span>
+      </button>
+      <nav id="primary-nav" class="main-nav" aria-label="主要ナビゲーション">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active" aria-current="page">トップ</a></li>
+          <li><a href="about.html" class="nav-link">部について</a></li>
+          <li><a href="videos.html" class="nav-link">演奏動画</a></li>
+          <li><a href="news.html" class="nav-link">実績・記録</a></li>
+          <li><a href="links.html" class="nav-link">公式リンク</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <main id="main-content" tabindex="-1">
+
+    <!-- ヒーローセクション（本物の舞台写真が切り替わるヒーロースライダー） -->
+    <section class="hero" aria-label="メインビジュアル">
+      <div class="hero-media hero-slider" id="hero-slider" aria-roledescription="カルーセル" aria-label="太鼓部演奏風景スライドショー">
+        <div class="hero-slides">
+          <!-- スライド1: 黄金の舞台光 -->
+          <div class="hero-slide is-active" role="group" aria-roledescription="スライド" aria-label="1 / 4: 舞台照明と和太鼓">
+            <picture>
+              <source media="(max-width: 600px)" srcset="assets/media/hero_gold-small.webp" width="720" height="405">
+              <source media="(max-width: 1100px)" srcset="assets/media/hero_gold-medium.webp" width="1080" height="607">
+              <img 
+                src="assets/media/hero_gold-large.webp" 
+                alt="黄金色の舞台照明を浴びて和太鼓に向き合う韮崎工業高校太鼓部の演奏風景" 
+                class="hero-image"
+                width="1600" 
+                height="900" 
+                fetchpriority="high"
+              >
+            </picture>
+          </div>
+          <!-- スライド2: 関東大会の気迫ある演奏 -->
+          <div class="hero-slide" role="group" aria-roledescription="スライド" aria-label="2 / 4: 関東地区高等学校和太鼓選手権">
+            <picture>
+              <source media="(max-width: 600px)" srcset="assets/media/stage_kanto-600.webp" width="600" height="400">
+              <img 
+                src="assets/media/stage_kanto-1000.webp" 
+                alt="関東地区高等学校和太鼓選手権での熱のこもった正面演奏の瞬間" 
+                class="hero-image"
+                width="1000" 
+                height="668" 
+                loading="lazy"
+              >
+            </picture>
+          </div>
+          <!-- スライド3: 小田川ホタルまつり 夜間野外演奏 -->
+          <div class="hero-slide" role="group" aria-roledescription="スライド" aria-label="3 / 4: 小田川ホタルまつり 夜間野外演奏">
+            <picture>
+              <source media="(max-width: 600px)" srcset="assets/media/festival_night-600.webp" width="600" height="336">
+              <img 
+                src="assets/media/festival_night-1000.webp" 
+                alt="小田川ホタルまつりの夜間野外ステージで提灯の明かりに照らされ太鼓を叩く部員たち" 
+                class="hero-image"
+                width="1000" 
+                height="560" 
+                loading="lazy"
+              >
+            </picture>
+          </div>
+          <!-- スライド4: 芸術文化祭 舞台全景 -->
+          <div class="hero-slide" role="group" aria-roledescription="スライド" aria-label="4 / 4: 芸術文化祭 舞台全景">
+            <picture>
+              <source media="(max-width: 600px)" srcset="assets/media/stage_geibunsai-600.webp" width="600" height="399">
+              <img 
+                src="assets/media/stage_geibunsai-1000.webp" 
+                alt="芸術文化祭の舞台上で太鼓が整然と並び演奏が繰り広げられる全景" 
+                class="hero-image"
+                width="1000" 
+                height="665" 
+                loading="lazy"
+              >
+            </picture>
+          </div>
+        </div>
+        
+        <!-- コントラスト保護グラデーション -->
+        <div class="hero-scrum" aria-hidden="true"></div>
+
+        <!-- スライドインジケーター（手動切り替え・進捗表示） -->
+        <div class="hero-slider-nav" aria-label="スライドの切り替え">
+          <button type="button" class="hero-slider-dot is-active" aria-label="スライド1を表示（黄金の舞台照明）" data-slide="0"></button>
+          <button type="button" class="hero-slider-dot" aria-label="スライド2を表示（関東大会の演奏）" data-slide="1"></button>
+          <button type="button" class="hero-slider-dot" aria-label="スライド3を表示（ホタルまつり野外演奏）" data-slide="2"></button>
+          <button type="button" class="hero-slider-dot" aria-label="スライド4を表示（芸術文化祭舞台全景）" data-slide="3"></button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-school">山梨県立韮崎工業高等学校 太鼓部</div>
+          <h1 class="hero-title">この一打を、<br>届けたい。</h1>
+          <p class="hero-sub">
+            伝統の天野流和太鼓と「窮理居敬」の精神を受け継ぐ。心震わせる響きを、ここから。
+          </p>
+          <div class="hero-actions">
+            <a href="#featured-video" class="btn btn-primary">代表演奏を見る</a>
+            <a href="about.html" class="btn btn-secondary">太鼓部の歩み</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 代表演奏セクション（YouTube遅延iframeプレイヤー） -->
+    <section id="featured-video" class="section section-dark" aria-labelledby="heading-featured">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="heading-featured" class="section-title">代表演奏</h2>
+          <p class="section-lead">
+            韮崎工業高校25代目太鼓部による定期演奏会「鍛麗 -TANREI 2026- 10th ANNIVERSARY」。節目の年に響かせた渾身の舞台です。
+          </p>
+        </div>
+
+        <div class="video-feature-card">
+          <div 
+            class="yt-lazy-player" 
+            data-video-id="4h8R6uvNiw8" 
+            data-video-title="鍛麗 -TANREI 2026- 10th ANNIVERSARY 韮崎工業高校25代目太鼓部定期演奏会"
+            tabindex="0"
+            role="button"
+            aria-label="動画を再生する: 鍛麗 -TANREI 2026- 10th ANNIVERSARY"
+          >
+            <img 
+              src="assets/media/stage_geibunsai-1000.webp" 
+              alt="" 
+              class="yt-lazy-thumb"
+              width="1000"
+              height="665"
+              loading="lazy"
+            >
+            <div class="yt-play-btn" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"></polygon></svg>
+            </div>
+          </div>
+          <noscript>
+            <div style="padding: 1.5rem; background: #182b3d; text-align: center;">
+              <p style="color: #fff; margin-bottom: 1rem;">JavaScriptが無効な環境では直接YouTubeにてご覧いただけます。</p>
+              <a href="https://www.youtube.com/watch?v=4h8R6uvNiw8" class="btn btn-primary" target="_blank" rel="noopener noreferrer">YouTubeでこの動画を見る</a>
+            </div>
+          </noscript>
+          <div class="video-card-body">
+            <h3 class="video-card-title">鍛麗 -TANREI 2026- 10th ANNIVERSARY 韮崎工業高校25代目太鼓部定期演奏会</h3>
+            <p class="video-card-desc">
+              公式YouTubeチャンネル公開映像。東京エレクトロン韮崎文化ホールにて開催された第10回記念公演。迫力ある撥さばきと重厚な和太鼓の共鳴をご覧ください。
+            </p>
+            <div class="video-card-links">
+              <a href="https://www.youtube.com/watch?v=4h8R6uvNiw8" class="link-external" target="_blank" rel="noopener noreferrer">
+                YouTube公式チャンネルで視聴する ↗
+              </a>
+              <a href="videos.html" class="link-external" style="margin-left: auto;">
+                過去の鍛麗・大会動画一覧へ →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 部について（読み物の明るい余白と実写真） -->
+    <section class="section" aria-labelledby="heading-about-brief">
+      <div class="container">
+        <div class="story-grid">
+          <div class="story-content">
+            <h2 id="heading-about-brief" class="section-title">天野流の伝統と、窮理居敬の精神</h2>
+            <p>
+              韮崎工業高校太鼓部は、2001年1月23日に同好会として産声を上げました。同年3月には同窓会のご支援により「太鼓贈呈式及び入魂の儀」が行われ、本格的な活動を開始。2026年現在、創部26年目を迎えています。
+            </p>
+            <p>
+              甲府市無形文化財であった故・天野宣先生に由来する「天野流和太鼓」の指導を受け継ぎ、校訓である「窮理居敬（きゅうりきょけい）の精神」を胸に日々の鍛錬を重ねています。
+            </p>
+            <p>
+              毎年冬には集大成となる定期演奏会「鍛麗 -TANREI-」を開催し、地域に太鼓の力強い響きを届け続けています。
+            </p>
+            <div style="margin-top: 2rem;">
+              <a href="about.html" class="btn btn-outline-dark">創部の歩みと歴史を詳しく見る</a>
+            </div>
+          </div>
+          <div class="story-visual">
+            <div class="story-photo-frame">
+              <picture>
+                <source srcset="assets/media/stage_geibunsai-600.webp" media="(max-width: 600px)">
+                <img 
+                  src="assets/media/stage_geibunsai-1000.webp" 
+                  alt="芸術文化祭の舞台上で太鼓が整然と並び演奏が繰り広げられる全景" 
+                  width="1000" 
+                  height="665" 
+                  loading="lazy"
+                >
+              </picture>
+            </div>
+            <p class="story-caption">山梨県高等学校芸術文化祭での舞台全景（公式Instagram提供素材より）</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 地域での演奏活動（夜間演奏写真） -->
+    <section class="section" style="background-color: #eaf0f5;" aria-labelledby="heading-community">
+      <div class="container">
+        <div class="story-grid reversed">
+          <div class="story-visual">
+            <div class="story-photo-frame">
+              <picture>
+                <source srcset="assets/media/festival_night-600.webp" media="(max-width: 600px)">
+                <img 
+                  src="assets/media/festival_night-1000.webp" 
+                  alt="小田川ホタルまつりの夜間野外ステージで提灯の明かりに照らされ太鼓を叩く部員たち" 
+                  width="1000" 
+                  height="560" 
+                  loading="lazy"
+                >
+              </picture>
+            </div>
+            <p class="story-caption">地域のお祭り「小田川ホタルまつり」での夜間野外演奏風景</p>
+          </div>
+          <div class="story-content">
+            <h2 id="heading-community" class="section-title">地域と響き合う、年間約20件の演奏</h2>
+            <p>
+              韮崎工業高校太鼓部は、学校行事だけでなく、韮崎市内外の祭りやイベント、福祉施設、文化行事など年間20件近くの演奏依頼を受けて活動しています。
+            </p>
+            <p>
+              小田川ホタルまつりや信玄公祭りなど、夜空の下や地域の舞台で響かせる一打は、多くの観客と部員の心を結びつけています。
+            </p>
+            <div style="margin-top: 2rem;">
+              <a href="news.html" class="btn btn-outline-dark">活動実績と出演記録一覧へ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 和モダンディバイダー -->
+    <div class="taiko-divider" aria-hidden="true">
+      <span class="taiko-divider-line"></span>
+      <span class="taiko-divider-emblem"></span>
+      <span class="taiko-divider-line"></span>
+    </div>
+
+    <!-- 直近の確認済み実績 -->
+    <section class="section" aria-labelledby="heading-recent-news">
+      <div class="container">
+        <div class="section-header" style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <h2 id="heading-recent-news" class="section-title">直近の実績・公式記録</h2>
+            <p class="section-lead">学校公式サイトより確認された直近の大会結果とお知らせです。</p>
+          </div>
+          <a href="news.html" class="btn btn-outline-dark">すべての記録を見る →</a>
+        </div>
+
+        <div class="news-list">
+          <article class="news-item">
+            <div class="news-meta">
+              <time datetime="2026-08-27" class="news-date">2026.08.27</time>
+              <span class="news-tag">大会実績</span>
+            </div>
+            <div class="news-body">
+              <h3 class="news-title">【太鼓部】関東大会 銅賞受賞</h3>
+              <p class="news-desc">第16回関東地区高等学校和太鼓選手権（神奈川県海老名市・2026年8月17日開催）に出場し、見事「銅賞」を獲得しました。</p>
+              <div class="news-source">出典：<a href="https://www.nirasakith.kai.ed.jp/bukatudo/taiko/" target="_blank" rel="noopener noreferrer">山梨県立韮崎工業高等学校 公式サイト</a></div>
+            </div>
+          </article>
+
+          <article class="news-item">
+            <div class="news-meta">
+              <time datetime="2025-11-17" class="news-date">2025.11.17</time>
+              <span class="news-tag news-tag-past">過去の記録</span>
+            </div>
+            <div class="news-body">
+              <h3 class="news-title">【太鼓部】定期演奏会「鍛麗2026」開催告知</h3>
+              <p class="news-desc">25代目太鼓部による定期演奏会「鍛麗 -TANREI 2026- 10th ANNIVERSARY」が東京エレクトロン韮崎文化ホールにて開催されました。</p>
+              <div class="news-source">出典：<a href="https://www.nirasakith.kai.ed.jp/bukatudo/taiko/" target="_blank" rel="noopener noreferrer">山梨県立韮崎工業高等学校 公式サイト</a></div>
+            </div>
+          </article>
+
+          <article class="news-item">
+            <div class="news-meta">
+              <time datetime="2025-08-29" class="news-date">2025.08.29</time>
+              <span class="news-tag">大会実績</span>
+            </div>
+            <div class="news-body">
+              <h3 class="news-title">【太鼓部】関東地区和太鼓選手権 出場決定</h3>
+              <p class="news-desc">山梨県代表として関東地区高等学校和太鼓選手権への出場を果たしました。</p>
+              <div class="news-source">出典：<a href="https://www.nirasakith.kai.ed.jp/bukatudo/taiko/" target="_blank" rel="noopener noreferrer">山梨県立韮崎工業高等学校 公式サイト</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 共通フッター -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h2>山梨県立韮崎工業高等学校 太鼓部 ポータル</h2>
+          <p class="footer-notice">
+            本サイトは、韮崎工業高校太鼓部の活動を応援するために制作された非公式ファンポータルです。掲載情報は学校公式サイトおよび公式YouTubeチャンネル、公式Instagramの公表資料に基づいています。
+          </p>
+        </div>
+        <nav class="footer-nav" aria-label="フッターナビゲーション">
+          <ul>
+            <li><a href="index.html" class="active">トップ</a></li>
+            <li><a href="about.html">部について</a></li>
+            <li><a href="videos.html">演奏動画</a></li>
+            <li><a href="news.html">実績・記録</a></li>
+            <li><a href="links.html">公式リンク集</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 韮崎工業高校太鼓部ファンポータル（非公式）</div>
+        <div>写真・映像提供：公式Instagram公表資料より</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>

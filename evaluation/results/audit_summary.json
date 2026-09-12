@@ -1,0 +1,307 @@
+{
+  "timestamp": "2026-09-12 16:47:44",
+  "pages_tested": [
+    "index.html",
+    "about.html",
+    "videos.html",
+    "news.html",
+    "links.html"
+  ],
+  "viewports_tested": [
+    "320",
+    "375",
+    "400",
+    "768",
+    "1280"
+  ],
+  "checks": {
+    "overflow_zero": true,
+    "broken_images": 0,
+    "console_errors": 0,
+    "page_metadata_ok": true,
+    "initial_iframe_count": 0,
+    "initial_mp4_count": 0,
+    "max_initial_transfer_kb": 336.3,
+    "menu_interactions_ok": true,
+    "youtube_deferred_ok": true,
+    "reduced_motion_ok": true,
+    "no_js_ok": true
+  },
+  "details": [
+    {
+      "page": "index.html",
+      "viewports": {
+        "320": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 216.7,
+          "small_targets_count": 4
+        },
+        "375": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 216.7,
+          "small_targets_count": 7
+        },
+        "400": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 216.7,
+          "small_targets_count": 7
+        },
+        "768": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 290.7,
+          "small_targets_count": 7
+        },
+        "1280": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 329.1,
+          "small_targets_count": 7
+        }
+      }
+    },
+    {
+      "page": "about.html",
+      "viewports": {
+        "320": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 160.6,
+          "small_targets_count": 0
+        },
+        "375": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 160.6,
+          "small_targets_count": 0
+        },
+        "400": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 160.6,
+          "small_targets_count": 0
+        },
+        "768": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 305.1,
+          "small_targets_count": 1
+        },
+        "1280": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 305.1,
+          "small_targets_count": 0
+        }
+      }
+    },
+    {
+      "page": "videos.html",
+      "viewports": {
+        "320": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 336.3,
+          "small_targets_count": 0
+        },
+        "375": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 336.3,
+          "small_targets_count": 0
+        },
+        "400": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 336.3,
+          "small_targets_count": 0
+        },
+        "768": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 336.3,
+          "small_targets_count": 0
+        },
+        "1280": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 336.3,
+          "small_targets_count": 0
+        }
+      }
+    },
+    {
+      "page": "news.html",
+      "viewports": {
+        "320": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 81.1,
+          "small_targets_count": 0
+        },
+        "375": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 81.1,
+          "small_targets_count": 5
+        },
+        "400": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 81.1,
+          "small_targets_count": 5
+        },
+        "768": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 126.0,
+          "small_targets_count": 5
+        },
+        "1280": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 126.0,
+          "small_targets_count": 5
+        }
+      }
+    },
+    {
+      "page": "links.html",
+      "viewports": {
+        "320": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 58.0,
+          "small_targets_count": 0
+        },
+        "375": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 58.0,
+          "small_targets_count": 0
+        },
+        "400": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 58.0,
+          "small_targets_count": 0
+        },
+        "768": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 75.7,
+          "small_targets_count": 0
+        },
+        "1280": {
+          "overflow": false,
+          "broken_images": [],
+          "console_errors": [],
+          "h1_count": 1,
+          "initial_iframes": 0,
+          "initial_mp4s": 0,
+          "transfer_kb": 75.7,
+          "small_targets_count": 0
+        }
+      }
+    }
+  ]
+}

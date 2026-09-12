@@ -1,0 +1,12 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# 大容量素材アーカイブ（WebP化済み素材は assets/media に格納）
+nirasaki-taiko-instagram-assets.zip
+assets 2/
+
+# 自動テスト出力・スクリーンショット
+output/
+__pycache__/
+*.pyc
