@@ -5,7 +5,7 @@
 - [x] ブラウザ・モーション・キーボード検証、第三者レビュー、必要な修正
 
 ## Next
-- [ ] 公開先の設定（公開は別途指示に従う）
+- [x] 公開先の設定（GitHub Pages: https://nirareba0.github.io/nirasakitaikoportal/ にデプロイ完了）
 
 ## Blocked
 - 現在の人数・顧問・見学の連絡先・次回公演日：未確認のため掲載しない
